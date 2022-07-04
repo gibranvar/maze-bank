@@ -1,0 +1,246 @@
+body{
+    background: url(./images/Background.png);
+    margin: none;
+    padding: none;
+    font: bold 22px Arial, Sans-Serif;
+}
+.page{
+    background-color: #E7E7E7;
+    width: 82%;  
+    height: 650px;
+    margin-left: 121.5px;
+}
+.top-line{
+    height: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -10px;
+    margin-bottom: -1px;
+    background-color: #c3363d;
+}
+.bottom-line{
+    background-color: #c3363d;
+    height: 6px;
+    width: 90%;
+    border: none;
+}
+header{
+    display: flex;
+}
+header img{
+    padding-top: 15px;
+    margin-left: 5%;
+}
+
+.welcome{
+   margin:150px;
+    text-align: center;
+}
+.ingresar{
+    cursor:url("./images/pointer.png"),pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 10px solid #c3363d;
+    border-radius: 5px;
+    background-color: #c3363d;
+
+}
+.ingresar:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+
+/* inicio de sesion */
+
+.inicio-sesion{
+    margin: 130px;
+    text-align: center;
+}
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.user input{
+    background: rgb(196,123,127);
+    background: linear-gradient(0deg, rgba(196,123,127,1) 0%, rgba(195,54,61,1) 100%);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font: bold 18px Arial, Sans-Serif;
+}
+
+.user input:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+
+/* nav */
+
+.nav {
+    display: block;
+    color:white;
+    background: rgb(196,123,127);
+    background: linear-gradient(0deg, rgba(196,123,127,1) 0%, rgba(195,54,61,1) 100%);
+    height: 90px;
+    width: 90%;
+    margin-left: 58px ;
+    margin-right: 15px;
+    border: none;    
+}
+.sl1{
+    margin: 30px;
+}
+.sl2{
+    text-align: center; 
+}
+
+/* main menu */
+
+.servicios{
+    margin-top: 110px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.servicios a{
+    text-decoration: none;
+    cursor:url("./images/pointer.png"),pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 10px solid #c3363d;
+    border-radius: 5px;
+    background-color: #c3363d;
+    width:40%;
+    font-size: 20px;
+}
+.servicios a:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+.logout{
+    margin-top: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    flex-direction: row-reverse;
+}
+.logout a{
+    text-decoration: none;
+    cursor:url("./images/pointer.png"),pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 10px solid #c3363d;
+    border-radius: 5px;
+    background-color: #c3363d;
+    width:10%;
+    font-size: 15px;
+}
+.logout a:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+.total-num{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* ingreso y retiro*/
+
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.left{
+    margin: 50px;
+    
+}
+.ingreso-dinero{
+    background: rgb(196,123,127);
+    background: linear-gradient(0deg, rgba(196,123,127,1) 0%, rgba(195,54,61,1) 100%);
+    border: none;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font: bold 18px Arial, Sans-Serif;
+}
+.ingreso-dinero:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+.btn{
+    cursor:url("./images/pointer.png"),pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 10px solid #c3363d;
+    border-radius: 5px;
+    background-color: #c3363d;
+}
+.btn:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+.right{
+    margin-top: -15px;
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back a{
+    cursor:url("./images/pointer.png"),pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 10px solid #c3363d;
+    border-radius: 5px;
+    background-color: #c3363d;
+}
+
+.back a:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #3c4043;
+}
+
+/* consulta */
+
+.saldo-total{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.total{
+    margin: 50px;
+}
+.total.num{
+    margin: 50px;
+}
+.underline{
+    height: 0px;
+    width: 90%;   
+}

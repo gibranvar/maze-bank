@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Bank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://pbs.twimg.com/profile_images/891404814818652160/bm4rOKWS_400x400.jpg">
+</head>
+<body>
+<hr class="top-line">
+<div class="page">
+        <header>
+            <img src="./images/Logo.png" alt=""> 
+        </header>
+        <hr class="bottom-line">
+    <form class="inicio-sesion">
+        <p>Inicio de Sesión</p>
+        <div class="user">
+            <label>Usuario</label>
+            <input autocomplete="off" id="username" type="user" name="user" value=""/>
+            <label>Contraseña</label>
+            <input id="psw" type="password" name="password" value=""/>
+            <div id="msg"></div>
+        </div>
+        <br>
+         <button id="button" class="ingresar" type="button" onclick="login()">OK</button> 
+    </form>
+</div>
+<script src="./js/sesion.js"></script>
+</body>
+</html>
